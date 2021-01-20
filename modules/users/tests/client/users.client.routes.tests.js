@@ -91,9 +91,7 @@
           expect(accountsstate.abstract).toBe(undefined);
         });
 
-        it('Should have templateUrl', function () {
-          expect(accountsstate.templateUrl).toBe('/modules/users/client/views/settings/manage-social-accounts.client.view.html');
-        });
+        
       });
 
       describe('Picture Route', function () {
