@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\modules",
-    "\\modules\\tickets\\client",
-    "\\modules\\tickets\\client\\views",
-    "\\modules\\users",
-    "\\modules\\users\\client\\views"
+    "\\modules\\core",
+    "\\modules\\core\\tests\\client\\interceptors",
+    "\\modules\\tickets",
+    "\\modules\\tickets\\server\\controllers",
+    "\\modules\\tickets\\server\\routes",
+    "\\modules\\users"
   ],
-  "SelectedNode": "\\modules\\users\\tests",
+  "SelectedNode": "\\.bowerrc",
   "PreviewInSolutionExplorer": false
 }
