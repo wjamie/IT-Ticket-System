@@ -2,7 +2,7 @@
   'use strict';
 
   describe('Chat Route Tests', function () {
-    // Initialize global variables
+    // Initialize necessary global variables
     var $scope,
       Authentication,
       $httpBackend;

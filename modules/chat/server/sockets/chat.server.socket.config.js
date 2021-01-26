@@ -1,6 +1,6 @@
 'use strict';
 
-// Create the chat configuration
+// Create / initialise the chat configuration
 module.exports = function (io, socket) {
   // Emit the status event when a new socket client is connected
   io.emit('chatMessage', {

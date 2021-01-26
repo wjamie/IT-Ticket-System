@@ -5,7 +5,7 @@
   'use strict';
 
   describe('ChatController', function () {
-    // Initialize global variables
+    // Initialize necessary global variables
     var $scope,
       Socket,
       ChatController,

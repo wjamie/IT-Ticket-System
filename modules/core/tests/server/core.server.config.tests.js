@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Module dependencies.
+ * Module dependencies variables.
  */
 var _ = require('lodash'),
   should = require('should'),
@@ -17,7 +17,7 @@ var _ = require('lodash'),
   Article = mongoose.model('Article');
 
 /**
- * Globals
+ * Global variables
  */
 var app,
   agent,

@@ -9,7 +9,7 @@ var should = require('should'),
   Ticket = mongoose.model('Ticket');
 
 /**
- * Globals
+ * Global variables
  */
 var user,
   ticket;

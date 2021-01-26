@@ -2,7 +2,7 @@
   'use strict';
 
   describe('Tickets List Controller Tests', function () {
-    // Initialize global variables
+    // Initialize necessary global variables
     var TicketsListController,
       $scope,
       $httpBackend,
@@ -46,7 +46,7 @@
       Authentication = _Authentication_;
       TicketsService = _TicketsService_;
 
-      // create mock article
+      // create mock ticket
       mockTicket = new TicketsService({
         _id: '525a8422f6d0f87f0e407a33',
         name: 'Ticket Name'

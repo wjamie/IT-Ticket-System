@@ -1,9 +1,9 @@
 (function () {
   'use strict';
 
-  /* Creates a mock of socket.io for the browser.
+  /* Creates a mock of socket.io for the browser for testing
    * Functionality of the service is tested through
-   * the chat controller tests.
+   * the chat controller tests
    */
 
   var ngInjector = angular.injector(['ng']),

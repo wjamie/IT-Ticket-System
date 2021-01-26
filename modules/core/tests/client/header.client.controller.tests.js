@@ -2,7 +2,7 @@
 
 (function () {
   describe('HeaderController', function () {
-    // Initialize global variables
+    // Initialize necessary global variables for header controller
     var scope,
       HeaderController,
       $state,
